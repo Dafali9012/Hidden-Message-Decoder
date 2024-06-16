@@ -1,0 +1,1 @@
+gcc src/*.c -o bin/hidden_message_decoder.exe -I include/ -L lib/ -lraylib -lopengl32 -lgdi32 -lwinmm
