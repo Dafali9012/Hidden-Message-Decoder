@@ -9,6 +9,10 @@ Decodes binary messages from images
 
 Reads binary messages where characters are 6 bits long\
 0 starts at ASCII "A"\
-reads from top to bottom, left to right\
+reads from top to bottom, left to right
+
+The program reads a file namned "message.png" in the same folder\
+When all vertices have been placed around the message, a grid of points will appear\
+Points turn white, meaning the dark area they are placed in is recognized as a 1 bit\
 
 Built with Raylib
